@@ -5,5 +5,6 @@ struct Point2D {
 
 class PointCalculator {
 public:
+  bool isCloseEnough(Point2D pt1, Point2D pt2);
   float calcDistance(Point2D pt1, Point2D pt2);
 };
